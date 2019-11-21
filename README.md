@@ -38,4 +38,5 @@ GDD
 		Les habitacions, a més a més, contaran amb elements decoratius que actuarant diferent segons l'hora del dia en que el joc estigui. (ex: llums que s'encenen en els nivells
 		de nit).
 
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 ************************************************************************************************
