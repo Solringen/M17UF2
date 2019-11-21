@@ -1,8 +1,6 @@
 # M17UF2
 Projecte M17-UF2 J.Rosell, G.Plopu &amp; I. Dudnyk
 
-bbbbbbbbb
-
 ************************************************************************************************
 
 GDD
@@ -40,7 +38,6 @@ GDD
 		Les habitacions, a més a més, contaran amb elements decoratius que actuarant diferent segons l'hora del dia en que el joc estigui. (ex: llums que s'encenen en els nivells
 		de nit).
 
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 ************************************************************************************************
 
 Miaumiaumiau
