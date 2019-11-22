@@ -9,8 +9,8 @@ public class Player_Controller : MonoBehaviour
     public float rotationSpeed = 200.0f;
     private int vides = 5;
     private float wallet;
-    public GameObject tVides;
-    public GameObject tMoney;
+//    public GameObject tVides;
+//    public GameObject tMoney;
 
     AudioSource audioData;
 
@@ -18,7 +18,6 @@ public class Player_Controller : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-        audioData = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -32,7 +31,7 @@ public class Player_Controller : MonoBehaviour
     {
         if (other.gameObject.tag == "coin")
         {
-            pickCoin(other);        
+            pickCoin(other);
         }
         else if (other.tag == "enemy")
         {
@@ -45,7 +44,7 @@ public class Player_Controller : MonoBehaviour
     {
         vides -= 1;
         Debug.Log("Vides: " + vides);
-        tVides.GetComponent<UnityEngine.UI.Text>().text = "Vides: " + vides;
+//        tVides.GetComponent<UnityEngine.UI.Text>().text = "Vides: " + vides;
         if (vides <= 0)
         {
             Debug.Log("You died");
@@ -57,9 +56,8 @@ public class Player_Controller : MonoBehaviour
     {
         wallet++;
         Debug.Log("Coins: " + wallet);
-        tMoney.GetComponent<UnityEngine.UI.Text>().text = "Monedes: " + wallet;
+//        tMoney.GetComponent<UnityEngine.UI.Text>().text = "Monedes: " + wallet;
         Destroy(other.gameObject);
-        audioData.Play(0);
         checkVictory();
     }
 
