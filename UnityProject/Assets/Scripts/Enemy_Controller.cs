@@ -5,7 +5,7 @@ using UnityEngine;
 public class Enemy_Controller : MonoBehaviour
 {
 
-    private Vector3 dist;
+    //private Vector3 dist;
     public float speed;
     private GameObject Player;
 
@@ -18,7 +18,7 @@ public class Enemy_Controller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        dist = new Vector3(Player.transform.position.x, Player.transform.position.y, Player.transform.position.z);
-        transform.position = Vector3.MoveTowards(transform.position, dist, speed * Time.deltaTime);
+      //  dist = new Vector3(Player.transform.position.x, Player.transform.position.y, Player.transform.position.z);
+       // transform.position = Vector3.MoveTowards(transform.position, dist, speed * Time.deltaTime);
     }
 }
