@@ -481,6 +481,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
+  ButtonExit: {fileID: 631295260}
+  ButtonStart: {fileID: 955854224}
+  ButtonOpcions: {fileID: 1793849767}
 --- !u!1 &727595141
 GameObject:
   m_ObjectHideFlags: 0
@@ -576,6 +579,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
+  ButtonExit: {fileID: 631295260}
+  ButtonStart: {fileID: 955854224}
+  ButtonOpcions: {fileID: 1793849767}
 --- !u!1 &955854222
 GameObject:
   m_ObjectHideFlags: 0
