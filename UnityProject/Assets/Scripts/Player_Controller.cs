@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player_Controller : MonoBehaviour
 {
@@ -38,6 +39,10 @@ public class Player_Controller : MonoBehaviour
             Destroy(other.gameObject);
             damage();
         }
+      else if(other.tag == "scene")
+      {
+      SceneManager.LoadScene("Inicio");
+      }
     }
 
     public void damage()
