@@ -1,6 +1,9 @@
 using UnityEngine;
 using System.Collections;
+<<<<<<< HEAD
 using UnityEngine.UI;
+=======
+>>>>>>> 3f8d9d4964932a3b2c84e7902fdcc9d56d6fe757
 
 public class BlurControl : MonoBehaviour {
 	
@@ -8,7 +11,11 @@ public class BlurControl : MonoBehaviour {
 	
 	// Use this for initialization
 	void Start () {
+<<<<<<< HEAD
 		value = 0.6f;
+=======
+		value = 0.0f;
+>>>>>>> 3f8d9d4964932a3b2c84e7902fdcc9d56d6fe757
 		transform.GetComponent<Renderer>().material.SetFloat("_blurSizeXY",value);
 	}
 	
