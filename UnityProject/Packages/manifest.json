@@ -1,5 +1,8 @@
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 48a8b72e504fe7046978cbbcb3c37814558be1c4
   "dependencies": {
     "com.unity.2d.sprite": "1.0.0",
     "com.unity.2d.tilemap": "1.0.0",
@@ -49,7 +52,10 @@
     "com.unity.modules.wind": "1.0.0",
     "com.unity.modules.xr": "1.0.0"
   }
+<<<<<<< HEAD
 =======
   "dependencies": {}
 >>>>>>> 6fc6b5ee316d7f008d013edbdf00da86d7f1bf58
+=======
+>>>>>>> 48a8b72e504fe7046978cbbcb3c37814558be1c4
 }
